@@ -11,8 +11,8 @@ function new_image(get_image)
 {
 fabric.Image.fromURL(get_image,function (Img){
      block_img_object = Img;
-     block_img_object.scaleToWidth(block_img_width);
-     block_img_object.scaleToHeight(block_img_height);
+     block_img_object.scaleToWidth(block_image_width);
+     block_img_object.scaleToHeight(block_image_height);
      block_img_object.set({
          top : block_y,
          left: block_x
