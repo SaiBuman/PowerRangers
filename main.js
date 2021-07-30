@@ -10,14 +10,14 @@ var block_image_object= "";
 function new_image(get_image)
 {
 fabric.Image.fromURL(get_image,function (Img){
-     block_img_object = Img;
-     block_img_object.scaleToWidth(block_image_width);
-     block_img_object.scaleToHeight(block_image_height);
-     block_img_object.set({
+     block_image_object = Img;
+     block_image_object.scaleToWidth(block_image_width);
+     block_image_object.scaleToHeight(block_image_height);
+     block_image_object.set({
          top : block_y,
          left: block_x
      });
-     canvas.add(block_img_object);
+     canvas.add(block_image_object);
     }) ;}
 
 window.addEventListener("keydown", my_keydown);
