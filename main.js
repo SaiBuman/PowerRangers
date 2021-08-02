@@ -43,7 +43,7 @@ console.log(keyPressed);
 		block_x =350;
 		new_image("yr.png");
         console.log("y");	}
-	}
+	
 	if(keyPressed == '80')
 	{
 		block_x = 600;
