@@ -1,5 +1,6 @@
 
-canvas = new fabric.Canvas("myCanvas"); block_y=1;
+canvas = new fabric.Canvas("myCanvas");
+ block_y=1;
  block_x=1;
 
 block_image_width = 350;
@@ -30,7 +31,7 @@ console.log(keyPressed);
 	if(keyPressed == '82') 
 	{
 		new_image("rr.jpg");
-        console.log("left");	}
+        console.log("r");	}
 		
 	if(keyPressed == '71')
 	{
@@ -54,7 +55,4 @@ console.log(keyPressed);
 		block_x = 700;
 		new_image("br.png");
         console.log("b");	
-	}
-	
-
-
+	}} 
